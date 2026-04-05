@@ -49,6 +49,7 @@ mini-gpt-from-scratch-pytorch/
 ├── README.md
 └── requirements.txt
 
+```
 ## Results
 The model was trained on progressively larger datasets.
 
