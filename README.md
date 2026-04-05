@@ -48,3 +48,21 @@ mini-gpt-from-scratch-pytorch/
 ├── LICENSE
 ├── README.md
 └── requirements.txt
+
+## Results
+The model was trained on progressively larger datasets.
+
+| Dataset Size | Validation Loss | Output Quality |
+|-------------|---------------|---------------|
+| 50k chars   | ~4.5          | Poor |
+| 120k chars  | ~1.7          | Readable |
+| 200k chars  | ~1.36         | Good |
+| 400k chars  | **~1.25**     | **Strong** |
+
+The final model produces structured short stories with correct punctuation and reasonable grammar.
+
+## Future Work
+- Implement subword tokenization (BPE)
+- Train larger models with longer context
+- Add evaluation metrics and visualizations
+- Experiment with different decoding strategies
